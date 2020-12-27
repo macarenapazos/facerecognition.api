@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node server.js -s lit-meadow-58465.herokuapp.com -l 3500 -m rc4 -k foobar -r 80",
     "start:dev": "nodemon --watch"
 },
 
